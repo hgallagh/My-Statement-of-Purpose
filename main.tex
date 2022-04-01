@@ -1,0 +1,39 @@
+%
+% brownletter_example.tex - an example latex file to illustrate brownletter.cls
+%
+% Copyright 2003, Nesime Tatbul (tatbul@cs.brown.edu)
+%
+
+\documentclass[11pt]{brownletter}
+
+\name{Nesime Tatbul} % used as signature, if no signature is specified
+
+\signature{Nesime Tatbul\\ Tex Merc}
+
+\date{December 15, 2003} % if no date specified, today's date is used 
+
+\subject{Brown letterhead} % optional subject line
+
+\begin{document}
+
+\begin{letter}{Prof. Eli Upfal\\ 
+               Brown University\\ 
+               Box 1910\\ 
+               Providence, RI 02912}
+
+\opening{Dear Sir,}
+
+This is my statement of purpose and could be a cover letter as well. I am currently writing this during the covid pandemic as well as the wwiii in Ukraine and Russia at an urgency. Inflation is crazy so I'm just trying to live. 
+
+This could be a long or short letter, but at the end of the day I repeat this statement of purpose to myself everyday...even though it's been four years since I dreamed of writing this. 
+\closing{Sincerely,}
+
+\encl{brownletter.cls}
+
+\ps{Please see the enclosed file.}
+
+\cc{J. Kirschenbaum}
+
+\end{letter}
+
+\end{document}
